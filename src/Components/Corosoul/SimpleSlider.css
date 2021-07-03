@@ -1,0 +1,30 @@
+.SimpleSlider{
+  background-color: rgba(238, 231, 231, 0.2);
+  margin-top: 20px;
+}
+
+.SimpleSlider_main {
+  margin: 2rem 2rem ;
+}
+.SimpleSlider_main{
+  line-height: 1.5;
+  letter-spacing: 1.5;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.SimpleSlider_main_header{
+  font-weight: bolder;
+  font-size: x-large;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.SimpleSlider_main_text{
+  line-height: 25px;
+  margin-left: 5%;
+  font-weight: 300;
+  margin-bottom: 20px;
+}

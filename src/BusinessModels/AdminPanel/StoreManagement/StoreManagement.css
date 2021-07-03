@@ -1,0 +1,37 @@
+.store_management_main{
+    text-align: center;
+    border-bottom: 1px solid rgb(48, 33, 33, 0.2);
+}
+.store_management_main_upload {
+  text-align: center;
+  margin-left: 5px;
+  border: 0.5px solid rgb(48, 33, 33, 0.2);
+  margin-top: 5px;
+  font-weight: bolder;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: large;
+  border: 0.5px solid rgb(48, 33, 33, 0.2);
+  border-top: none;
+}
+.store_management_main_upload_header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.store_management_main_upload_page {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.store_management_main_btn{
+    margin: 30px;
+    padding: 30px;
+}
+.store_management_main_upload_upload_image{
+  margin:50px;
+}
+.store_management_main_upload_header{
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: large;
+  margin-bottom: 10px;
+}

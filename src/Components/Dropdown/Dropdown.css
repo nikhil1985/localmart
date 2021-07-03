@@ -1,0 +1,23 @@
+button {
+  border-radius: 10px;
+  background-color: aquamarine;
+  outline: none;
+  margin-left: 5rem;
+  margin-top: 20rem;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+.submenu__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search__field{
+  flex: 1;
+  justify-self: center;
+  margin-left: 15rem;
+  margin-right: 20rem;
+}

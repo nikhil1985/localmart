@@ -1,0 +1,17 @@
+.popup__menu {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: inherit;
+}
+
+.popup__menu_ul {
+  text-align: center;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+

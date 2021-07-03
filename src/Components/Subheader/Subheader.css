@@ -1,0 +1,41 @@
+.sub-menu {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  margin-left: 3rem auto;
+}
+.modal {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.modal_content {
+  background-color: white;
+  position: absolute;
+  top: 0.1rem;
+  left: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  border: 0.5px solid gray;
+}
+
+.close {
+  color: Black;
+  float: right;
+}
+
+.close:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
+.multiple__menu {
+  display: flex;
+}
+.submenu {
+  margin: 0.25rem;
+}

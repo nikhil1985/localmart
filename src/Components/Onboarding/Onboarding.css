@@ -1,0 +1,55 @@
+.onboarding_parent {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding-top: 2rem;
+}
+.onboarding_main {
+  text-align: center;
+}
+
+.onboarding_header {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+.onboarding_main_steps {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.onboarding_explain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin-left: 50px;
+}
+.onboarding_explain_item {
+  margin-bottom: 2rem;
+  line-height: 20px;
+  font-weight: 300;
+}
+.onboarding_explain_item_tag {
+  font-size: larger;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.onboarding_explain_reverse {
+  flex-direction: row-reverse;
+}
+.onboarding_explain_item_header {
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(131, 131, 243);
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .onboarding_main_steps {
+    flex-direction: column;
+  }
+}

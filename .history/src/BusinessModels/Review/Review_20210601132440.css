@@ -1,0 +1,39 @@
+.review_button{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.review_insert__main{
+    border-radius: 5px;
+    border: 2px solid rgb(230, 243, 235);
+    margin:1rem;
+}
+.review_insert{
+    display: grid;
+    grid-template-columns: 30% 60% ;
+    grid-column-gap: 50px;
+    text-align: left;
+}
+
+.review_insert_name{
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.review_insert_btn{
+    text-align: center;
+    margin: 1rem;
+}
+.review_item_img{
+    width: 100%;
+    height: auto;
+}
+.review_upload_image{
+    width: 100%;
+    height: auto;
+}
+.MuiTableCell-sizeSmall{
+    padding: 6px 25px 6px 25px;
+}
+

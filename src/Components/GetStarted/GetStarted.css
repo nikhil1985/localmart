@@ -1,0 +1,32 @@
+.getstarted-main {
+    background-color: rgb(7, 2, 2);
+    min-height: 200px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    color: white;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../../src/background.jpg');
+    background-size: cover;
+}
+
+.getstarted-main--header{
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.getstarted-main--explain{
+    margin-top: 0.5rem;
+    font-size: 30px;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+
+@media (max-width: 480px) {
+    .getstarted--button{
+      text-align: center;
+    }
+  }

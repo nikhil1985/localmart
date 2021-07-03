@@ -1,0 +1,22 @@
+.uploadcsv_main{
+    border: 4px dashed rgb(41, 11, 11,0.4);
+    margin: 4rem auto;
+    padding:2rem;
+    width: 50%;
+    height: 50%;
+}
+.uploadcsv_main_input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 50%;
+  outline: none;
+  opacity: 0;
+}
+
+.uploadcsv_main_p {
+  text-align: center;
+  color: #353030;
+  font-family: Arial;
+}
