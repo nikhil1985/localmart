@@ -1,0 +1,26 @@
+.header-menu-button {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+}
+.header_image{
+   height: auto;
+   width: 10%;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .header_image{
+        height: auto;
+        width: 30%;
+     }
+  }
+
+  @media (max-width: 600px) {
+    .header_image{
+        height: auto;
+        width: 40%;
+     }
+  }
+  

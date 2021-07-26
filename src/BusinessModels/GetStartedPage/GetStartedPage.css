@@ -1,0 +1,30 @@
+.getstartedpage_main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgba(160, 160, 36, 0.1);
+}
+.getstartedpage_main__sidebar{
+    padding-top: 4rem;
+    position: relative;
+    min-height: 25vh;
+    
+}
+
+.getstartedpage_main__mainbar {
+    min-height: 70vh;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.getstartedpage_main__mainbar_submit{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+}
+
+.getstartedpage_main__mainbar_submit_name{
+    text-align: center;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+}
